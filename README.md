@@ -12,7 +12,7 @@ app shows, in every language it speaks, so anyone can help bring Tikido to their
 
 ## How to help
 
-**On the website (easiest).** Open [tikido.expo.app/ceviri](https://tikido.expo.app/ceviri), sign in with
+**On the website (easiest).** Open [tikidoapp.expo.app/translation](https://tikidoapp.expo.app/translation), sign in with
 GitHub, pick a language and translate the texts one by one. When you send it for review, the site opens a
 pull request here in your name. No files, no Git.
 

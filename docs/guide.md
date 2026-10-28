@@ -85,7 +85,7 @@ Tikido talks like a friend who is happy to see you. Tiki, the hedgehog, is the o
 
 ## Seeing your translation in the app
 
-In Tikido, open **Settings → Help translate**:
+In Tikido, open **Settings → Translator tools**:
 
 - **Show text keys** replaces every text with its key, so you can find which key a text on screen comes
   from.
