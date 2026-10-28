@@ -1,5 +1,6 @@
 // Checks a language file against the Turkish source and makes it safe to load. Shared by the app's
-// translation tools and `npm run check:i18n` (Node runs this file directly), so it imports nothing.
+// translation tools, the translation website, `npm run check:i18n` and the translations repository's check
+// (copied there by `npm run locales:export`). Node runs this file directly, so it imports nothing.
 
 export type Tree = { [key: string]: string | string[] | Tree };
 type Value = string | string[];
