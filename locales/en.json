@@ -888,7 +888,6 @@
     "ok": "No problems",
     "download": "Download the file",
     "submit": "Send for review",
-    "submitSoon": "Sending with GitHub is coming very soon. For now you can download the file and add it to the repository.",
     "discard": "Delete the draft",
     "discardConfirm": "Delete your draft for this language? This can't be undone.",
     "hints": {
@@ -902,7 +901,17 @@
       "file": "Becomes a file name: lowercase, no spaces",
       "seed": "A new user's sample task: pick an example that fits your culture",
       "inSentence": "As written inside a sentence: lowercase if your language does"
-    }
+    },
+    "signIn": "Sign in with GitHub",
+    "signInHint": "Sign in with GitHub to send it. Your translation opens as a pull request in your name and shows on your GitHub profile.",
+    "signedInAs": "Signed in as {{login}}",
+    "signOut": "Sign out",
+    "sending": "Sending…",
+    "sent": "Sent, thank you! We'll add it to the app once we've reviewed it.",
+    "viewPr": "Open the pull request on GitHub",
+    "sendFailed": "Couldn't send it: {{error}}",
+    "signInFailed": "The GitHub sign-in didn't finish. Try again.",
+    "fixFirst": "Fix the texts with problems before sending."
   },
   "backup": {
     "filePrefix": "tikido-backup",

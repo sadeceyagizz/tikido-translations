@@ -888,7 +888,6 @@
     "ok": "Sorun yok",
     "download": "Dosyayı indir",
     "submit": "İncelemeye gönder",
-    "submitSoon": "GitHub ile gönderme çok yakında. Şimdilik dosyayı indirip depoya ekleyebilirsin.",
     "discard": "Taslağı sil",
     "discardConfirm": "Bu dildeki taslağın silinsin mi? Bu geri alınamaz.",
     "hints": {
@@ -902,7 +901,17 @@
       "file": "Dosya adı olur: küçük harf, boşluksuz",
       "seed": "Yeni kullanıcının örnek görevi: kendi kültürüne uygun bir örnek seç",
       "inSentence": "Cümle içindeki hâli: dilin öyle yazıyorsa küçük harfle"
-    }
+    },
+    "signIn": "GitHub ile giriş yap",
+    "signInHint": "Göndermek için GitHub ile giriş yap. Çevirin senin adınla bir değişiklik önerisi olarak açılır ve GitHub profilinde görünür.",
+    "signedInAs": "{{login}} olarak giriş yaptın",
+    "signOut": "Çıkış yap",
+    "sending": "Gönderiliyor…",
+    "sent": "Gönderildi, teşekkürler! İnceledikten sonra uygulamaya ekleyeceğiz.",
+    "viewPr": "Öneriyi GitHub'da aç",
+    "sendFailed": "Gönderilemedi: {{error}}",
+    "signInFailed": "GitHub girişi tamamlanamadı. Bir daha dene.",
+    "fixFirst": "Göndermeden önce sorunlu metinleri düzelt."
   },
   "backup": {
     "filePrefix": "tikido-yedek",
