@@ -1,0 +1,966 @@
+{
+  "_meta": {
+    "name": "Türkçe",
+    "locale": "tr-TR",
+    "translators": []
+  },
+  "common": {
+    "undo": "Geri al",
+    "add": "Ekle",
+    "save": "Kaydet",
+    "delete": "Sil",
+    "cancel": "Vazgeç",
+    "close": "Kapat",
+    "back": "Geri",
+    "edit": "Düzenle",
+    "sheetHandleHint": "Kapatmak için aşağı çek",
+    "day": "Gün",
+    "week": "Hafta",
+    "doneLower": "tamamlandı",
+    "a11yCheck": "Tamamla: {{label}}",
+    "a11yChecked": "Tamamlandı: {{label}}"
+  },
+  "date": {
+    "today": "Bugün",
+    "tomorrow": "Yarın",
+    "yesterday": "Dün",
+    "weekdayShort": [
+      "Pzt",
+      "Sal",
+      "Çar",
+      "Per",
+      "Cum",
+      "Cmt",
+      "Paz"
+    ],
+    "weekdayLong": [
+      "Pazartesi",
+      "Salı",
+      "Çarşamba",
+      "Perşembe",
+      "Cuma",
+      "Cumartesi",
+      "Pazar"
+    ],
+    "weekdayInSentence": [
+      "pazartesi",
+      "salı",
+      "çarşamba",
+      "perşembe",
+      "cuma",
+      "cumartesi",
+      "pazar"
+    ],
+    "weekdayMini": [
+      "Pt",
+      "Sa",
+      "Ça",
+      "Pe",
+      "Cu",
+      "Ct",
+      "Pz"
+    ]
+  },
+  "duration": {
+    "min": "{{n}} dk",
+    "h": "{{n}} sa",
+    "hMin": "{{h}} sa {{m}} dk",
+    "minutesLong": "{{n}} dakika"
+  },
+  "counts": {
+    "task_one": "{{count}} görev",
+    "task_other": "{{count}} görev",
+    "habit_one": "{{count}} alışkanlık",
+    "habit_other": "{{count}} alışkanlık",
+    "block_one": "{{count}} program bloğu",
+    "block_other": "{{count}} program bloğu",
+    "session_one": "{{count}} odak oturumu",
+    "session_other": "{{count}} odak oturumu",
+    "day_one": "{{count}} gün",
+    "day_other": "{{count}} gün"
+  },
+  "form": {
+    "title": "Başlık",
+    "titleRequired": "Bir başlık yaz.",
+    "time": "Saat",
+    "timeInvalid": "Saati 14:30 gibi yaz.",
+    "category": "Kategori",
+    "duration": "Süre"
+  },
+  "plan": {
+    "backTo": "{{label}} görünümüne dön",
+    "today": "Bugün",
+    "lists": "Görevler ve alışkanlıklar",
+    "day": "Gün",
+    "week": "Hafta",
+    "list": "Liste"
+  },
+  "tabs": {
+    "plan": "Plan",
+    "today": "Bugün",
+    "tasks": "Görevler",
+    "focus": "Odak",
+    "habits": "Alışkanlık",
+    "schedule": "Program"
+  },
+  "categories": {
+    "habit": "Alışkanlık",
+    "study": "Ders",
+    "schedule": "Program",
+    "project": "Proje",
+    "health": "Sağlık",
+    "personal": "Kişisel"
+  },
+  "kinds": {
+    "task": "Görev",
+    "habit": "Alışkanlık",
+    "block": "Program"
+  },
+  "profiles": {
+    "student": {
+      "title": "Öğrenci",
+      "body": "Ders programı, sınavlar, çalışma süresi"
+    },
+    "worker": {
+      "title": "Çalışan",
+      "body": "İş blokları, toplantılar, projeler"
+    },
+    "freelancer": {
+      "title": "Serbest çalışan",
+      "body": "Proje başına süre, müşteriler"
+    },
+    "growth": {
+      "title": "Kişisel gelişim",
+      "body": "Alışkanlıklar, seriler, hedefler"
+    }
+  },
+  "modules": {
+    "habits": {
+      "title": "Alışkanlıklar",
+      "body": "Tekrar eden alışkanlıklar ve seriler"
+    },
+    "schedule": {
+      "title": "Haftalık program",
+      "body": "Her hafta tekrar eden ders ve iş blokları"
+    },
+    "base": {
+      "today": "Bugün",
+      "tasks": "Görevler",
+      "focus": "Odak sayacı"
+    }
+  },
+  "today": {
+    "petFriend": "Sev: {{name}}",
+    "prevWeek": "Önceki hafta",
+    "nextWeek": "Sonraki hafta",
+    "dropAllDay": "Saatini kaldırmak için buraya bırak",
+    "dropTimeline": "Bir saate yerleştirmek için buraya bırak",
+    "movedToToday": "\"{{title}}\" bugüne alındı",
+    "movedToDay": "\"{{title}}\" {{day}} gününe taşındı",
+    "timeSet": "\"{{title}}\" {{time}} saatine yerleşti",
+    "timeCleared": "\"{{title}}\" gün boyu listesine alındı",
+    "overdue": "Gecikmiş",
+    "someday": "Bir ara",
+    "moveToToday": "Bugüne al",
+    "allDay": "Gün boyu",
+    "timed": "Saatli",
+    "greeting": {
+      "morning": "Günaydın",
+      "afternoon": "İyi günler",
+      "evening": "İyi akşamlar",
+      "night": "İyi geceler"
+    },
+    "tiki": {
+      "emptyToday": "Bugün için plan yok. + ile ilk işini ekleyelim mi?",
+      "emptyOther": "Bu gün henüz boş. Şimdiden plan yapalım mı?",
+      "allDoneToday": "Bugünkü her şey tamam. Harika bir gün!",
+      "allDoneOther": "Bu günün her şeyi hazır.",
+      "oneLeftToday": "Son bir iş kaldı. Bitirelim mi?",
+      "onePlanned": "Bu gün için 1 iş planlı.",
+      "manyLeftToday": "Bugün {{n}} iş kaldı. Birlikte bitirelim mi?",
+      "manyPlanned": "Bu gün için {{n}} iş planlı."
+    },
+    "tiles": {
+      "tasks": "görev",
+      "focus": "odak",
+      "streak": "seri",
+      "openStats": "İstatistikleri aç"
+    },
+    "empty": {
+      "title": "Burası boş",
+      "body": "Sağ alttaki + ile görev, alışkanlık veya program bloğu ekle."
+    },
+    "quickAdd": "Hızlı ekle",
+    "now": "Şimdi",
+    "noTime": "Saatsiz",
+    "endsAt": "Bitiş {{time}}",
+    "progress": "{{elapsed}} / {{total}} dk",
+    "startFocus": "Odağı başlat",
+    "dragTimeHint": "Saati değiştirmek için yukarı ya da aşağı kaydır"
+  },
+  "tasks": {
+    "add": "Görev ekle",
+    "late": "Gecikti",
+    "lateLower": "gecikti",
+    "important": "Önemli",
+    "importantLower": "önemli",
+    "sections": {
+      "overdue": "Gecikmiş",
+      "done": "Tamamlanan",
+      "undated": "Tarihsiz",
+      "thisWeek": "Bu hafta",
+      "nextWeek": "Gelecek hafta",
+      "later": "Daha sonra",
+      "collapsedA11y": "{{title}}, {{count}} görev, kapalı",
+      "expandedA11y": "{{title}}, {{count}} görev, açık"
+    },
+    "search": {
+      "open": "Ara",
+      "close": "Aramayı kapat",
+      "placeholder": "Görevlerde ara"
+    },
+    "inline": {
+      "placeholder": "Bugüne ekle · örn. yarın 15:00 #okul",
+      "a11y": "Hızlı görev ekle"
+    },
+    "repeat": {
+      "label": "Tekrar",
+      "none": "Tekrar yok",
+      "daily": "Her gün",
+      "weekdays": "Hafta içi",
+      "weekly": "Her hafta",
+      "monthly": "Her ay",
+      "weeklyOn": "Her {{day}}",
+      "monthlyOn": "Her ayın {{n}}. günü",
+      "needsDate": "Tekrar eden görev bir günle başlar; bugünü seçtim."
+    },
+    "tags": {
+      "title": "Etiketler",
+      "placeholder": "Etiket ekle (ör. okul)",
+      "add": "Etiketi ekle",
+      "all": "Tümü",
+      "filterA11y": "Etikete göre süz"
+    },
+    "subtasks": {
+      "title": "Alt görevler",
+      "placeholder": "Alt görev ekle",
+      "add": "Alt görevi ekle",
+      "remove": "Sil: {{title}}",
+      "progressA11y": "{{done}} / {{total}} alt görev tamam"
+    },
+    "empty": {
+      "noResults": "Sonuç yok",
+      "allDone": "Hepsi tamam",
+      "noMatch": "\"{{query}}\" ile eşleşen görev bulunamadı.",
+      "hint": "Yeni bir görev eklemek için yukarıdaki alana yaz."
+    }
+  },
+  "quickAdd": {
+    "newTitle": "Yeni ekle",
+    "titlePlaceholder": "Ne yapacaksın?",
+    "examplePlaceholder": "Örn. yarın 15:00 matematik 1 saat",
+    "parsedTitle": "Başlık: {{title}}",
+    "ignoreParse": "Yoksay",
+    "ignoreParseA11y": "Algılanan tarih ve saati yoksay",
+    "day": "Gün",
+    "undated": "Tarihsiz",
+    "pickDate": "Tarih seç",
+    "habitNote": "Her gün tekrar eder. Haftada birkaç kez ya da sayaçlı (ör. 8 bardak) yapmak için Alışkanlıklar sekmesinden düzenleyebilirsin.",
+    "repeatWeekly": "Her hafta tekrarla",
+    "repeatEvery": "Her {{day}} tekrarla",
+    "oneOff": "Tek seferlik",
+    "repeatTimeRequired": "Her hafta tekrar eden blok için başlangıç saati gerekli.",
+    "timeLabel": "Saat (isteğe bağlı)"
+  },
+  "focus": {
+    "free": "Serbest odak",
+    "freeMode": "Serbest",
+    "shortBreak": "Mola · {{n}} dk",
+    "longBreak": "Uzun mola · {{n}} dk",
+    "round": "Odak · {{round}}. tur / {{total}}",
+    "roundA11y": "{{round}}. tur / {{total}}",
+    "lengthA11y": "Odak süresi",
+    "todayTotal": "Bugün {{duration}}",
+    "linkedToday": "bugün {{duration}} odak",
+    "pickTask": "Görev seç",
+    "pickTaskHint": "İstersen görevsiz de odaklanabilirsin",
+    "change": "Değiştir",
+    "changeTask": "Görevi değiştir",
+    "a11yRemaining": "Kalan süre {{time}}",
+    "a11yElapsed": "Geçen süre {{time}}",
+    "hints": {
+      "freeIdle": "Başlat ve istediğin zaman bitir",
+      "freeRunning": "Bitir dediğinde süre kaydedilir",
+      "breakIdle": "Molaya başla ya da atla",
+      "breakRunning": "Mola bitince {{round}}. tur",
+      "thenLongBreak": "Sonra {{n}} dk uzun mola",
+      "thenBreak": "Sonra {{n}} dk mola"
+    },
+    "controls": {
+      "start": "Başlat",
+      "pause": "Duraklat",
+      "resume": "Devam et",
+      "startBreak": "Molaya başla",
+      "reset": "Sıfırla",
+      "finish": "Bitir",
+      "skipBreak": "Molayı atla"
+    },
+    "picker": {
+      "title": "Neye odaklanıyorsun?",
+      "none": "Görevsiz odak",
+      "noneBody": "Süre yalnızca günlük toplama eklenir",
+      "empty": "Bugün için açık görev yok. Görevler sekmesinden ekleyebilirsin."
+    }
+  },
+  "habits": {
+    "everyDay": "Her gün",
+    "timeScope": {
+      "title": "{{title}} · {{time}}",
+      "titleNone": "{{title}} · saatsiz",
+      "body": "Bu değişiklik sadece bu gün için mi, her gün için mi geçerli olsun?",
+      "today": "Sadece bugün",
+      "thatDay": "Sadece {{day}}",
+      "everyDay": "Her gün"
+    },
+    "perWeek": "Haftada {{n}}",
+    "perWeekProgress": "Haftada {{n}} · bu hafta {{done}}",
+    "thisWeek": "bu hafta {{done}}/{{target}}",
+    "streakDays": "{{n}} gün seri",
+    "streakWeeks": "{{n}} hafta seri",
+    "notDone": "yapılmadı",
+    "a11yAddOnce": "{{title}}: bir kez ekle",
+    "a11yAddUnit": "{{title}}: bir {{unit}} ekle",
+    "a11yToday": "{{title}}, bugün {{count}} / {{target}}",
+    "screen": {
+      "add": "Alışkanlık ekle",
+      "lastSeven": "Son 7 günde %{{pct}}",
+      "lastSevenA11y": "Son 7 günde yüzde {{pct}}",
+      "best": "En uzun seri: {{title}} · {{streak}}",
+      "startFirst": "İlk serini bugün başlat",
+      "emptyTitle": "İlk alışkanlığını ekle",
+      "emptyBody": "Su içmek, kitap okumak, spor… Her gün ya da haftada birkaç kez."
+    },
+    "sheet": {
+      "newTitle": "Yeni alışkanlık",
+      "editTitle": "Alışkanlığı düzenle",
+      "titlePlaceholder": "Ne yapmak istiyorsun?",
+      "titleA11y": "Alışkanlık adı",
+      "fewTimesWeek": "Haftada birkaç kez",
+      "daysPerWeek": "Haftada kaç gün?",
+      "daysPerWeekA11y": "Haftada {{n}} gün",
+      "timesPerDay": "Günde kaç kez?",
+      "timesPerDayA11y": "Günde {{n}} kez",
+      "once": "Bir kez",
+      "oncePerDay": "Günde bir kez",
+      "unitLabel": "Birim (isteğe bağlı)",
+      "unitPlaceholder": "bardak, sayfa, set",
+      "unitA11y": "Birim",
+      "timeLabel": "Saat (isteğe bağlı, Bugün akışında görünür)",
+      "delete": "Alışkanlığı sil"
+    }
+  },
+  "schedule": {
+    "add": "Program bloğu ekle",
+    "thisWeek": "Bu hafta",
+    "prevWeek": "Önceki hafta",
+    "nextWeek": "Sonraki hafta",
+    "backToThisWeek": "Bu haftaya dön",
+    "showDay": "Günü göster",
+    "emptyTitle": "Bu gün boş",
+    "emptyBody": "+ ile her hafta tekrar eden bir ders ya da iş bloğu ekle.",
+    "sheet": {
+      "newTitle": "Yeni program bloğu",
+      "editTitle": "Program bloğunu düzenle",
+      "intro": "Her hafta aynı gün ve saatte tekrar eder: ders, iş vardiyası, kurs.",
+      "titlePlaceholder": "Fizik dersi",
+      "day": "Gün",
+      "days": "Günler (birden fazla seçebilirsin)",
+      "daysRequired": "En az bir gün seç.",
+      "start": "Başlangıç",
+      "startA11y": "Başlangıç saati",
+      "timeRequired": "Program bloğu için başlangıç saati gerekli.",
+      "place": "Yer (isteğe bağlı)",
+      "placeA11y": "Yer",
+      "addToDays": "{{n}} güne ekle",
+      "delete": "Bloğu sil"
+    }
+  },
+  "onboarding": {
+    "stepA11y": "Adım {{step}} / {{total}}",
+    "skip": "Atla",
+    "skipA11y": "Profil seçimini atla",
+    "switchLanguage": "Dili değiştir, şu an {{name}}",
+    "tikiWaving": "El sallayan Tiki",
+    "start": "Başlayalım",
+    "startNamed": "Başlayalım, {{name}}",
+    "continue": "Devam et",
+    "welcome": {
+      "title": "Merhaba, ben Tiki!",
+      "body": "Günlerini birlikte planlayalım. Görevlerin, odak sürelerin, alışkanlıkların ve haftalık programın tek yerde.",
+      "noAccountTitle": "Hesap açmadan başla.",
+      "noAccountBody": "Verilerin önce telefonunda durur.",
+      "offlineTitle": "İnternetsiz çalışır.",
+      "offlineBody": "Uçakta bile planın yanında.",
+      "freeTitle": "Temel her şey ücretsiz.",
+      "freeBody": "Abonelik zorunlu değil."
+    },
+    "buddy": {
+      "bubble": "Bunlar benim arkadaşlarım! Planlarken yanında kim olsun?",
+      "title": "Arkadaşını seç",
+      "hint": "Her arkadaş kendi temasıyla gelir. Bu kalıcı bir seçim değil: arkadaşını, temanı ve görünümü istediğin zaman Ayarlar > Tema'dan değiştirebilirsin."
+    },
+    "profile": {
+      "bubble": "Seni biraz tanıyayım. Günlerin en çok neyle geçiyor?",
+      "title": "Neler yapıyorsun?",
+      "hint": "Birden fazla seçebilirsin. Sonra ayarlardan değiştirebilirsin.",
+      "sections": "Senin için açılacak bölümler"
+    },
+    "name": {
+      "bubble": "Son olarak, sana nasıl hitap edeyim?",
+      "title": "Adın ne?",
+      "hint": "Sadece bu telefonda saklanır. İstersen boş bırakabilirsin.",
+      "placeholder": "Adın"
+    }
+  },
+  "streak": {
+    "label_one": "günlük seri",
+    "label_other": "günlük seri",
+    "a11y": "{{n}} günlük seri",
+    "chip": "{{n}} günlük seri. Seri kartını aç",
+    "continue": "Devam",
+    "message": {
+      "first": "Serine bugün başladın. Yarın da uğra, birlikte büyütelim!",
+      "going": "{{n}} gündür buradasın. Seni görmek ne güzel!",
+      "milestone": "{{n}} gün üst üste! Bu gerçek bir dönüm noktası.",
+      "again": "Tekrar hoş geldin! Yeni bir seri başladı. En uzun serin {{best}} gün."
+    }
+  },
+  "badges": {
+    "title": "Rozetler",
+    "count": "{{total}} seviyeden {{done}} tanesi",
+    "earned": "Kazanıldı",
+    "new": "Yeni rozet",
+    "open": "Rozetleri aç",
+    "earnedOn": "{{date}} kazanıldı",
+    "progress": "{{value}} / {{target}}",
+    "level": "Seviye {{n}}",
+    "levelOf": "Seviye {{n}} / {{total}}",
+    "notYet": "Henüz kazanılmadı",
+    "next": "Sıradaki: {{goal}}",
+    "complete": "Bütün seviyeler tamam!",
+    "ladder": "Seviyeler",
+    "tiers": {
+      "bronze": "Bronz",
+      "silver": "Gümüş",
+      "gold": "Altın",
+      "emerald": "Zümrüt",
+      "ruby": "Yakut",
+      "diamond": "Elmas",
+      "legend": "Efsane"
+    },
+    "families": {
+      "streak": {
+        "title": "Sadık dost",
+        "goal": "{{n}} üst üste gel",
+        "goalOne": "{{n}} üst üste gel"
+      },
+      "tasks": {
+        "title": "İş bitirici",
+        "goal": "Toplam {{n}} tamamla",
+        "goalOne": "İlk görevini tamamla"
+      },
+      "focus": {
+        "title": "Odak ustası",
+        "goal": "Toplam {{n}} odaklan",
+        "goalOne": "Toplam {{n}} odaklan"
+      },
+      "habits": {
+        "title": "Alışkanlık bahçıvanı",
+        "goal": "Alışkanlıklarını {{n}} kez işaretle",
+        "goalOne": "Alışkanlıklarını {{n}} kez işaretle"
+      },
+      "goals": {
+        "title": "Zirve avcısı",
+        "goal": "{{n}} hedefine ulaş",
+        "goalOne": "Bir hedefine ulaş"
+      },
+      "themes": {
+        "title": "Tasarımcı",
+        "goal": "{{n}} tema kaydet",
+        "goalOne": "Kendi temanı kaydet"
+      }
+    }
+  },
+  "weekly": {
+    "title": "Haftalık özet",
+    "linkBody": "Haftan bir bakışta",
+    "prev": "Geçen hafta",
+    "this": "Bu hafta",
+    "tasks": "tamamlanan görev",
+    "focus": "odak",
+    "habits": "alışkanlık",
+    "visits": "geldiğin gün",
+    "visitsValue": "{{n}}/7",
+    "percent": "%{{n}}",
+    "pointsDelta": "{{n}} puan",
+    "focusByDay": "Günlere göre odak",
+    "noFocus": "Odak kaydı yok.",
+    "bestDay": "En verimli gün: {{day}} · {{what}}",
+    "taskCount": "{{n}} görev",
+    "badges": "Haftanın rozetleri",
+    "noBadges": "Yeni rozet yok; sıradakine az kalmış olabilir.",
+    "allBadges": "Bütün rozetler",
+    "promptTitle": "Geçen haftanın özeti hazır",
+    "promptBody": "Neler yaptığına bir bakalım mı?",
+    "promptDismiss": "Haftalık özeti kapat",
+    "line": {
+      "quiet": "Sakin bir haftaydı. Yeni hafta yeni bir başlangıç!",
+      "moreFocus": "Odak süren geçen haftayı geçti. Harika gidiyorsun!",
+      "habits": "Alışkanlıklarında çok istikrarlıydın.",
+      "everyDay": "Haftanın her günü buradaydın!",
+      "tasks": "{{n}} işi bitirdin. Eline sağlık!",
+      "focus": "Toplam {{duration}} odaklandın."
+    }
+  },
+  "story": {
+    "title": "Haftanın hikâyesi",
+    "close": "Kapat",
+    "next": "Sonraki",
+    "prev": "Önceki",
+    "slideOf": "{{n}} / {{total}}",
+    "intro": {
+      "kicker": "Haftalık özet",
+      "title": "Haftan hazır!",
+      "body": "{{range}} arasında neler yaptığına birlikte bakalım."
+    },
+    "visits": {
+      "kicker": "Buradaydın",
+      "title": "Haftanın {{n}} günü buradaydın",
+      "titleAll": "Haftanın her günü buradaydın!",
+      "streak": "Serin şu an {{n}}"
+    },
+    "tasks": {
+      "kicker": "Bitirdiklerin",
+      "unit": "görev tamamladın",
+      "more": "Geçen haftadan {{n}} fazla",
+      "less": "Geçen hafta {{n}} görevdi",
+      "same": "Geçen haftayla aynı",
+      "none": "Bu hafta görev bitmedi. Olsun, yeni hafta senin!"
+    },
+    "focus": {
+      "kicker": "Odak süren",
+      "unit": "odaklandın",
+      "more": "Geçen haftadan {{d}} fazla",
+      "less": "Geçen hafta {{d}} odaklanmıştın"
+    },
+    "habits": {
+      "kicker": "Alışkanlıklar",
+      "unit": "alışkanlıklarını tuttun",
+      "top": "En istikrarlısı: {{name}} · {{days}}"
+    },
+    "bestDay": {
+      "kicker": "Haftanın yıldızı",
+      "body": "En verimli günün buydu"
+    },
+    "badges": {
+      "kicker": "Yeni rozetler",
+      "title": "Bu hafta {{n}} rozet kazandın",
+      "titleOne": "Bu hafta bir rozet kazandın"
+    },
+    "outro": {
+      "kicker": "Haftanın özeti",
+      "replay": "Baştan izle",
+      "details": "Ayrıntılar"
+    }
+  },
+  "widgets": {
+    "today": {
+      "title": "Bugün",
+      "empty": "Bugün için plan yok",
+      "emptyHint": "Eklemek için dokun",
+      "allDone": "Hepsi tamam!",
+      "allDoneHint": "Bugünü bitirdin",
+      "more": "+{{n}} daha",
+      "next": "Sıradaki",
+      "anytime": "Gün boyu"
+    },
+    "focus": {
+      "title": "Odak",
+      "break": "Mola",
+      "ends": "Bitiş",
+      "started": "Başlangıç",
+      "paused": "Duraklatıldı",
+      "left": "{{n}} dk kaldı",
+      "idle": "Odaklanmaya hazır",
+      "today": "Bugün {{duration}}",
+      "focusing": "Odaktasın",
+      "round": "Tur {{round}}/{{total}}",
+      "start": "{{n}} dk başla",
+      "startFree": "Başla",
+      "startBreak": "Molaya başla",
+      "resume": "Devam et"
+    },
+    "buddy": {
+      "streak": "günlük seri",
+      "lit": "Bugün de buradasın",
+      "unlit": "Bugün uğra, seri sürsün",
+      "best": "En uzun: {{n}}"
+    }
+  },
+  "profile": {
+    "habitsRate": "Son 7 günde %{{pct}} tamamlandı",
+    "friendOf": "{{name}} ile birlikte",
+    "yourFriend": "Senin arkadaşın",
+    "streak": "seri",
+    "best": "en uzun seri",
+    "seeAll": "Tümü",
+    "story": "Haftanın hikâyesi",
+    "storyBody": "Geçen haftanı yeniden izle"
+  },
+  "mascots": {
+    "tiki": {
+      "name": "Tiki",
+      "theme": "Bal ve sıcak krem"
+    },
+    "unicorn": {
+      "name": "Unicorn",
+      "theme": "Pastel lavanta"
+    },
+    "owl": {
+      "name": "Baykuş",
+      "theme": "Kâğıt ve klasik yazı"
+    },
+    "fox": {
+      "name": "Tilki",
+      "theme": "Mercan ve sonbahar"
+    },
+    "penguin": {
+      "name": "Penguen",
+      "theme": "Buz mavisi"
+    },
+    "panda": {
+      "name": "Panda",
+      "theme": "Bambu yeşili"
+    }
+  },
+  "theme": {
+    "title": "Tema",
+    "settingsBody": "Renkler, şekiller, yazı tipi ve görünüm",
+    "preview": "Önizleme",
+    "previewToday": "Bugün",
+    "previewTask": "Fizik çalış",
+    "previewMeta": "15:00 · 1 sa",
+    "previewProgress": "Haftalık hedef",
+    "tabs": {
+      "presets": "Temalar",
+      "friend": "Karakter",
+      "color": "Renk",
+      "shape": "Şekil",
+      "font": "Yazı"
+    },
+    "library": {
+      "animals": "Hayvan temaları",
+      "mine": "Temalarım",
+      "emptyHint": "Beğendiğin bir görünümü kaydet ya da sana gönderilen bir temayı içe aktar.",
+      "save": "Bu temayı kaydet",
+      "import": "İçe aktar",
+      "rename": "Adını değiştir",
+      "renameHint": "Adını değiştirmek için dokun",
+      "nameLabel": "Tema adı",
+      "defaultName": "Temam {{n}}",
+      "authorNote": "Paylaştığında yapan olarak \"{{name}}\" görünür.",
+      "saved": "\"{{name}}\" Temalarım'a kaydedildi.",
+      "applied": "\"{{name}}\" uygulandı ve Temalarım'a eklendi.",
+      "mineMeta": "Senin teman · {{date}}",
+      "sharedBy": "{{author}} paylaştı",
+      "shared": "Paylaşılan tema",
+      "active": "Kullanımda",
+      "shareLink": "Bağlantıyla paylaş",
+      "shareFile": "Dosya olarak kaydet",
+      "shareMessage": "{{name}}: bir Tikido teması",
+      "copied": "Bağlantı kopyalandı.",
+      "fileShareTitle": "Tikido teması",
+      "filePrefix": "tikido-tema",
+      "importHint": "Paylaşılan bağlantıyı ya da kodu yapıştır, veya tema dosyasını seç.",
+      "pasteLabel": "Bağlantı veya kod",
+      "pastePlaceholder": "Bağlantı veya kod",
+      "pickFile": "Dosya seç",
+      "previewTitle": "Gelen tema",
+      "previewBy": "Yapan: {{author}}",
+      "readabilityWarning": "Bu temada bazı yazılar zor okunabilir.",
+      "applyAndSave": "Uygula ve kaydet",
+      "errors": {
+        "empty": "Önce bir bağlantı ya da kod yapıştır.",
+        "notTheme": "Bu bir Tikido teması değil.",
+        "newer": "Bu tema Tikido'nun daha yeni bir sürümüyle yapılmış. Önce uygulamayı güncelle.",
+        "file": "Dosya açılamadı."
+      }
+    },
+    "friend": {
+      "title": "Karakter",
+      "hint": "Karakter temadan bağımsız: istediğin arkadaşı istediğin temayla kullan."
+    },
+    "accent": "Vurgu rengi",
+    "accentHint": "Butonlar, seçili öğeler ve grafikler bu renge bürünür.",
+    "hexLabel": "Renk kodu",
+    "hexInvalid": "Altı haneli bir renk kodu yaz, örneğin 4A90D9",
+    "base": "Zemin",
+    "bases": {
+      "warm": "Sıcak",
+      "neutral": "Nötr",
+      "cool": "Soğuk"
+    },
+    "mode": "Görünüm",
+    "modeHint": "Bu ayar temaya değil bu cihaza ait; tema paylaşılınca gitmez.",
+    "modes": {
+      "system": "Sistem",
+      "light": "Açık",
+      "dark": "Koyu"
+    },
+    "corners": {
+      "title": "Köşeler",
+      "sharp": "Keskin",
+      "soft": "Yumuşak",
+      "normal": "Normal",
+      "round": "Yuvarlak"
+    },
+    "cards": {
+      "title": "Kartlar",
+      "outlined": "Çerçeveli",
+      "raised": "Gölgeli",
+      "flat": "Düz",
+      "tinted": "Renkli"
+    },
+    "checkbox": {
+      "title": "Onay kutusu",
+      "circle": "Daire",
+      "rounded": "Oval kare",
+      "square": "Kare"
+    },
+    "tabBar": {
+      "title": "Alt menü",
+      "floating": "Yüzen",
+      "docked": "Sabit"
+    },
+    "font": {
+      "title": "Yazı tipi",
+      "hint": "Yeni yazı tipleri ileride eklenecek.",
+      "dmSans": "DM Sans",
+      "system": "Sistem",
+      "serif": "Klasik",
+      "sample": "Bugün 3 görev, 2 alışkanlık var"
+    },
+    "readable": "Bütün yazılar okunaklı",
+    "readableDetail": "En düşük yazı kontrastı {{ratio}}:1 (en az 4,5:1 gerekir).",
+    "unreadable": "Bazı yazılar zor okunuyor",
+    "checks": {
+      "text": "Soluk yazılar",
+      "accentText": "Renkli yazılar",
+      "onAccent": "Buton yazıları",
+      "chart": "Grafik çubukları"
+    },
+    "checkLine": "{{name}}: {{ratio}}:1, en az {{min}}:1 olmalı",
+    "fix": "Rengi okunur yap",
+    "reset": "Varsayılan temaya dön"
+  },
+  "settings": {
+    "title": "Ayarlar",
+    "footer": "Hesap yok, veriler bu cihazda",
+    "replayIntro": "Tanıtımı tekrar göster",
+    "name": {
+      "title": "Adın",
+      "hint": "Bugün ekranındaki selamda kullanılır. Boş bırakabilirsin."
+    },
+    "profiles": {
+      "hint": "Profilini değiştirince bölümler buna göre yeniden önerilir."
+    },
+    "sections": {
+      "title": "Bölümler",
+      "hint": "Kapattığın bölüm sekmelerden ve Bugün ekranından gizlenir. Verilerin silinmez.",
+      "alwaysOn": "Her zaman açık",
+      "reset": "Profil önerilerine dön"
+    },
+    "haptics": {
+      "title": "Titreşim",
+      "body": "Dokunuşlarda ve sürüklerken hafif titreşim"
+    },
+    "reminders": {
+      "title": "Hatırlatıcılar",
+      "body": "Saatli görev, alışkanlık ve program bloklarından önce; odak turu bitince"
+    },
+    "language": {
+      "title": "Dil",
+      "hint": "Sistem, telefonunun diline uyar.",
+      "system": "Sistem",
+      "translate": "Çeviriye yardım et",
+      "translateBody": "Kendi dilini dene, metinlerin nerede çıktığını gör"
+    },
+    "backup": {
+      "title": "Yedekleme",
+      "hint": "Verilerin yalnızca bu cihazda duruyor. Ara sıra yedek alıp güvenli bir yere (Dosyalar, Drive, e-posta) koy.",
+      "export": "Yedek al",
+      "exportBody": "Tüm verilerini tek bir dosyaya kaydet",
+      "import": "Yedekten geri yükle",
+      "importBody": "Daha önce aldığın bir yedeği seç",
+      "ready": "Yedek hazır: {{summary}}.",
+      "exportFailed": "Yedek alınamadı.",
+      "confirmTitle": "Bu yedek geri yüklensin mi?",
+      "dated": "{{date}} tarihli yedek.",
+      "confirmWarning": "Bu cihazdaki mevcut verilerin yedektekilerle değiştirilecek.",
+      "restore": "Geri yükle",
+      "restoring": "Yükleniyor…",
+      "restored": "Yedek geri yüklendi.",
+      "restoreFailed": "Geri yükleme başarısız oldu."
+    }
+  },
+  "translate": {
+    "title": "Çeviri araçları",
+    "intro": "Tikido'yu kendi diline çevirmek ister misin? Başlangıç dosyasını kaydet, metinleri çevir, sonra dosyayı burada dene: uygulama hemen senin çevirinle açılır.",
+    "template": "Başlangıç dosyasını kaydet",
+    "templateBody": "Bütün metinler, İngilizce. Çeviriye buradan başla.",
+    "load": "Çeviri dosyasını dene",
+    "loadBody": "Dosyayı seç, denetleyelim ve uygulamayı onunla açalım",
+    "showKeys": "Metin anahtarlarını göster",
+    "showKeysBody": "Her yazının yerinde dosyadaki anahtarı görünür; hangi metnin nerede çıktığını bulmak için",
+    "fileTitle": "{{name}} · {{code}}",
+    "by": "Çeviren: {{names}}",
+    "ok": "Sorun yok, bütün metinler yerinde.",
+    "problems": "{{n}} sorun var. Eksik ya da hatalı metinler İngilizce görünür.",
+    "more": "+{{n}} sorun daha",
+    "apply": "Bu çeviriyle aç",
+    "trialName": "{{name}} (deneme)",
+    "active": "{{name}} deneniyor",
+    "activeBody": "Bu çeviri yalnızca bu cihazda. Yeni bir sürümünü yükleyince yerini alır.",
+    "end": "Denemeyi bitir",
+    "errors": {
+      "notJson": "Bu dosya okunamadı. Çeviri dosyası bir .json dosyası olmalı.",
+      "notTranslation": "Bu bir Tikido çeviri dosyası değil.",
+      "noMeta": "Dosyanın başındaki _meta bölümünde dilin adı (name) ve kodu (locale, ör. \"de-DE\") olmalı.",
+      "file": "Dosya açılamadı."
+    },
+    "problem": {
+      "missing": "Eksik: {{key}}",
+      "missingPlural": "Eksik çoğul biçimi: {{key}}",
+      "unknown": "Bilinmeyen anahtar: {{key}}",
+      "empty": "Boş: {{key}}",
+      "listEmpty": "{{key}}: listede boş öğe var",
+      "listLength": "{{key}}: {{want}} öğe olmalı, dosyada {{got}}",
+      "kindList": "{{key}}: liste olmalı",
+      "kindText": "{{key}}: metin olmalı",
+      "placeholders": "{{key}}: yer tutucular {{want}} olmalı, dosyada {{got}}",
+      "none": "yok",
+      "meta": "{{key}} eksik ya da hatalı"
+    }
+  },
+  "backup": {
+    "filePrefix": "tikido-yedek",
+    "shareTitle": "Tikido yedeği",
+    "errors": {
+      "corrupt": "Yedek dosyası eksik ya da bozuk.",
+      "unreadable": "Bu dosya okunamadı. Tikido yedeği bir .json dosyası olmalı.",
+      "notBackup": "Bu dosya bir Tikido yedeği değil.",
+      "newerVersion": "Bu yedek Tikido'nun daha yeni bir sürümüyle alınmış. Önce uygulamayı güncelle.",
+      "noShare": "Bu cihazda paylaşma menüsü kullanılamıyor."
+    }
+  },
+  "goals": {
+    "title": "Hedefler",
+    "add": "Hedef ekle",
+    "newTitle": "Yeni hedef",
+    "editTitle": "Hedefi düzenle",
+    "namePlaceholder": "Ör. Vize haftası",
+    "color": "Renk",
+    "due": "Bitiş tarihi",
+    "noDue": "Bitiş yok",
+    "label": "Hedef",
+    "none": "Hedef yok",
+    "progress": "{{done}}/{{total}} görev",
+    "focus": "{{duration}} odak",
+    "daysLeft": "{{days}} kaldı",
+    "dueToday": "Bugün bitiyor",
+    "overdueBy": "{{days}} geçti",
+    "noTasks": "Henüz görev yok",
+    "filterA11y": "{{title}}: {{progress}}. Görevlerini göster",
+    "clearFilterA11y": "{{title}} süzgecini kaldır",
+    "a11yIn": "{{title}} hedefinde",
+    "edit": "Düzenle",
+    "markReached": "Hedefe ulaştım",
+    "reachedNote": "Ulaşılan hedefler şeritten kalkar; görevleri kalır.",
+    "delete": "Hedefi sil",
+    "emptyFiltered": "Bu hedefe bağlı görev yok. Görev eklerken hedefi seç ya da başlığa \"+{{tag}}\" yaz."
+  },
+  "stats": {
+    "title": "İstatistik",
+    "prev": "Önceki",
+    "next": "Sonraki",
+    "lastWeek": "Geçen hafta",
+    "tasksDone": "tamamlanan görev",
+    "tikiSleeping": "Uyuyan {{name}}",
+    "dailyFocus": "Günlük odak",
+    "doneTasks": "Tamamlanan görevler",
+    "tapHint": "Bir güne dokun, değerini gör.",
+    "noFocusWeek": "Bu hafta odak kaydı yok.",
+    "noTasksWeek": "Bu hafta tamamlanan görev yok.",
+    "a11yFocusDay": "{{day}} odak",
+    "a11yTasksDay": "{{day}} tamamlanan görev",
+    "selectedDay": "{{day}}: {{focus}} odak, {{tasks}}",
+    "showTable": "Tablo olarak gör",
+    "hideTable": "Tabloyu gizle",
+    "whereFocus": "Odak nereye gitti?",
+    "sessions": "Odak oturumları",
+    "deletedTask": "Silinmiş görev",
+    "unlinkedFocus": "Göreve bağlı olmayan odak",
+    "otherEntries": "Diğer {{n}} kayıt",
+    "compare": {
+      "moreDay": "Önceki günden {{diff}} fazla",
+      "lessDay": "Önceki günden {{diff}} az",
+      "sameDay": "Önceki günle aynı",
+      "moreWeek": "Önceki haftadan {{diff}} fazla",
+      "lessWeek": "Önceki haftadan {{diff}} az",
+      "sameWeek": "Önceki haftayla aynı"
+    },
+    "empty": {
+      "today": "Bugün henüz kayıt yok",
+      "thisWeek": "Bu hafta henüz kayıt yok",
+      "pastDay": "Bu gün için kayıt yok",
+      "pastWeek": "Bu hafta için kayıt yok",
+      "body": "Odak sayacını kullandıkça ve görevleri tamamladıkça burası dolacak."
+    }
+  },
+  "reminders": {
+    "channel": "Hatırlatıcılar",
+    "label": "Hatırlat",
+    "none": "Yok",
+    "atStart": "Tam vaktinde",
+    "minutesBefore": "{{n}} dk önce",
+    "hoursBefore": "{{n}} sa önce",
+    "startsNow": "Şimdi başlıyor · {{time}}",
+    "startsIn": "{{n}} dk sonra başlıyor · {{time}}",
+    "off": "Hatırlatıcılar Ayarlar'dan kapalı.",
+    "denied": "Bildirim izni kapalı. Hatırlatmalar için telefon ayarlarından izin ver.",
+    "openSettings": "Telefon ayarlarını aç",
+    "test": "Deneme bildirimi gönder",
+    "testSent": "Bildirim {{n}} saniye içinde gelecek. Uygulamayı arka plana alabilirsin.",
+    "testFailed": "Bildirim kurulamadı: {{error}}",
+    "focusDoneTitle": "Odak turu bitti",
+    "focusDoneBody": "{{n}} dakikalık mola başladı.",
+    "breakDoneTitle": "Mola bitti",
+    "breakDoneBody": "Yeni bir odak turuna hazır mısın?",
+    "testTitle": "Tikido",
+    "testBody": "Hatırlatıcılar çalışıyor. Görevlerinden önce böyle haber vereceğim."
+  },
+  "calendar": {
+    "prevMonth": "Önceki ay",
+    "nextMonth": "Sonraki ay"
+  },
+  "seed": {
+    "math": "Matematik çalış",
+    "design": "Tikido tasarımı",
+    "physics": "Fizik dersi",
+    "morning": "Sabah rutini",
+    "water": "Su iç",
+    "glasses": "bardak",
+    "gym": "Spor salonu",
+    "read": "Kitap oku"
+  }
+}

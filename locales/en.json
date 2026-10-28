@@ -1,0 +1,966 @@
+{
+  "_meta": {
+    "name": "English",
+    "locale": "en-US",
+    "translators": []
+  },
+  "common": {
+    "undo": "Undo",
+    "add": "Add",
+    "save": "Save",
+    "delete": "Delete",
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "edit": "Edit",
+    "sheetHandleHint": "Drag down to close",
+    "day": "Day",
+    "week": "Week",
+    "doneLower": "done",
+    "a11yCheck": "Complete: {{label}}",
+    "a11yChecked": "Completed: {{label}}"
+  },
+  "date": {
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "yesterday": "Yesterday",
+    "weekdayShort": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri",
+      "Sat",
+      "Sun"
+    ],
+    "weekdayLong": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "weekdayInSentence": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "weekdayMini": [
+      "Mo",
+      "Tu",
+      "We",
+      "Th",
+      "Fr",
+      "Sa",
+      "Su"
+    ]
+  },
+  "duration": {
+    "min": "{{n}} min",
+    "h": "{{n}} h",
+    "hMin": "{{h}} h {{m}} min",
+    "minutesLong": "{{n}} minutes"
+  },
+  "counts": {
+    "task_one": "{{count}} task",
+    "task_other": "{{count}} tasks",
+    "habit_one": "{{count}} habit",
+    "habit_other": "{{count}} habits",
+    "block_one": "{{count}} schedule block",
+    "block_other": "{{count}} schedule blocks",
+    "session_one": "{{count}} focus session",
+    "session_other": "{{count}} focus sessions",
+    "day_one": "{{count}} day",
+    "day_other": "{{count}} days"
+  },
+  "form": {
+    "title": "Title",
+    "titleRequired": "Add a title.",
+    "time": "Time",
+    "timeInvalid": "Write the time like 14:30.",
+    "category": "Category",
+    "duration": "Duration"
+  },
+  "plan": {
+    "backTo": "Back to {{label}}",
+    "today": "Today",
+    "lists": "Tasks and habits",
+    "day": "Day",
+    "week": "Week",
+    "list": "Lists"
+  },
+  "tabs": {
+    "plan": "Plan",
+    "today": "Today",
+    "tasks": "Tasks",
+    "focus": "Focus",
+    "habits": "Habits",
+    "schedule": "Schedule"
+  },
+  "categories": {
+    "habit": "Habit",
+    "study": "Study",
+    "schedule": "Schedule",
+    "project": "Project",
+    "health": "Health",
+    "personal": "Personal"
+  },
+  "kinds": {
+    "task": "Task",
+    "habit": "Habit",
+    "block": "Schedule"
+  },
+  "profiles": {
+    "student": {
+      "title": "Student",
+      "body": "Class schedule, exams, study time"
+    },
+    "worker": {
+      "title": "Employee",
+      "body": "Work blocks, meetings, projects"
+    },
+    "freelancer": {
+      "title": "Freelancer",
+      "body": "Time per project, clients"
+    },
+    "growth": {
+      "title": "Personal growth",
+      "body": "Habits, streaks, goals"
+    }
+  },
+  "modules": {
+    "habits": {
+      "title": "Habits",
+      "body": "Recurring habits and streaks"
+    },
+    "schedule": {
+      "title": "Weekly schedule",
+      "body": "Classes and work blocks that repeat every week"
+    },
+    "base": {
+      "today": "Today",
+      "tasks": "Tasks",
+      "focus": "Focus timer"
+    }
+  },
+  "today": {
+    "petFriend": "Pet {{name}}",
+    "prevWeek": "Previous week",
+    "nextWeek": "Next week",
+    "dropAllDay": "Drop here to clear its time",
+    "dropTimeline": "Drop here to give it a time",
+    "movedToToday": "\"{{title}}\" moved to today",
+    "movedToDay": "\"{{title}}\" moved to {{day}}",
+    "timeSet": "\"{{title}}\" set for {{time}}",
+    "timeCleared": "\"{{title}}\" moved to any time",
+    "overdue": "Overdue",
+    "someday": "Someday",
+    "moveToToday": "Today",
+    "allDay": "Any time",
+    "timed": "Scheduled",
+    "greeting": {
+      "morning": "Good morning",
+      "afternoon": "Good afternoon",
+      "evening": "Good evening",
+      "night": "Good night"
+    },
+    "tiki": {
+      "emptyToday": "Nothing planned today. Shall we add your first task with +?",
+      "emptyOther": "This day is still empty. Want to plan ahead?",
+      "allDoneToday": "Everything is done for today. Great day!",
+      "allDoneOther": "Everything for this day is ready.",
+      "oneLeftToday": "Just one thing left. Shall we finish it?",
+      "onePlanned": "1 thing planned for this day.",
+      "manyLeftToday": "{{n}} things left today. Shall we finish them together?",
+      "manyPlanned": "{{n}} things planned for this day."
+    },
+    "tiles": {
+      "tasks": "tasks",
+      "focus": "focus",
+      "streak": "streak",
+      "openStats": "Open stats"
+    },
+    "empty": {
+      "title": "Nothing here yet",
+      "body": "Use the + at the bottom right to add a task, habit or schedule block."
+    },
+    "quickAdd": "Quick add",
+    "now": "Now",
+    "noTime": "No time",
+    "endsAt": "Ends {{time}}",
+    "progress": "{{elapsed}} / {{total}} min",
+    "startFocus": "Start focus",
+    "dragTimeHint": "Swipe up or down to change the time"
+  },
+  "tasks": {
+    "add": "Add task",
+    "late": "Overdue",
+    "lateLower": "overdue",
+    "important": "Important",
+    "importantLower": "important",
+    "sections": {
+      "overdue": "Overdue",
+      "done": "Completed",
+      "undated": "No date",
+      "thisWeek": "This week",
+      "nextWeek": "Next week",
+      "later": "Later",
+      "collapsedA11y": "{{title}}, {{count}} tasks, collapsed",
+      "expandedA11y": "{{title}}, {{count}} tasks, expanded"
+    },
+    "search": {
+      "open": "Search",
+      "close": "Close search",
+      "placeholder": "Search tasks"
+    },
+    "inline": {
+      "placeholder": "Add for today · e.g. tomorrow 3pm #work",
+      "a11y": "Quick add task"
+    },
+    "repeat": {
+      "label": "Repeat",
+      "none": "No repeat",
+      "daily": "Every day",
+      "weekdays": "Weekdays",
+      "weekly": "Every week",
+      "monthly": "Every month",
+      "weeklyOn": "Every {{day}}",
+      "monthlyOn": "Monthly on day {{n}}",
+      "needsDate": "A repeating task starts on a day, so I picked today."
+    },
+    "tags": {
+      "title": "Tags",
+      "placeholder": "Add a tag (e.g. school)",
+      "add": "Add tag",
+      "all": "All",
+      "filterA11y": "Filter by tag"
+    },
+    "subtasks": {
+      "title": "Subtasks",
+      "placeholder": "Add a subtask",
+      "add": "Add subtask",
+      "remove": "Delete: {{title}}",
+      "progressA11y": "{{done}} of {{total}} subtasks done"
+    },
+    "empty": {
+      "noResults": "No results",
+      "allDone": "All done",
+      "noMatch": "No tasks match \"{{query}}\".",
+      "hint": "Type in the field above to add a new task."
+    }
+  },
+  "quickAdd": {
+    "newTitle": "New",
+    "titlePlaceholder": "What will you do?",
+    "examplePlaceholder": "e.g. tomorrow 3pm call mom 30 min",
+    "parsedTitle": "Title: {{title}}",
+    "ignoreParse": "Ignore",
+    "ignoreParseA11y": "Ignore the recognized date and time",
+    "day": "Day",
+    "undated": "No date",
+    "pickDate": "Pick a date",
+    "habitNote": "Repeats every day. To do it a few times a week or with a counter (e.g. 8 glasses), edit it in the Habits tab.",
+    "repeatWeekly": "Repeat every week",
+    "repeatEvery": "Repeat every {{day}}",
+    "oneOff": "One-off",
+    "repeatTimeRequired": "A weekly block needs a start time.",
+    "timeLabel": "Time (optional)"
+  },
+  "focus": {
+    "free": "Free focus",
+    "freeMode": "Free",
+    "shortBreak": "Break · {{n}} min",
+    "longBreak": "Long break · {{n}} min",
+    "round": "Focus · round {{round}} of {{total}}",
+    "roundA11y": "Round {{round}} of {{total}}",
+    "lengthA11y": "Focus length",
+    "todayTotal": "Today {{duration}}",
+    "linkedToday": "{{duration}} focus today",
+    "pickTask": "Pick a task",
+    "pickTaskHint": "You can also focus without a task",
+    "change": "Change",
+    "changeTask": "Change task",
+    "a11yRemaining": "Time left {{time}}",
+    "a11yElapsed": "Time elapsed {{time}}",
+    "hints": {
+      "freeIdle": "Start, and finish whenever you like",
+      "freeRunning": "The time is saved when you finish",
+      "breakIdle": "Start the break or skip it",
+      "breakRunning": "Round {{round}} after the break",
+      "thenLongBreak": "Then a {{n}} min long break",
+      "thenBreak": "Then a {{n}} min break"
+    },
+    "controls": {
+      "start": "Start",
+      "pause": "Pause",
+      "resume": "Resume",
+      "startBreak": "Start break",
+      "reset": "Reset",
+      "finish": "Finish",
+      "skipBreak": "Skip break"
+    },
+    "picker": {
+      "title": "What are you focusing on?",
+      "none": "Focus without a task",
+      "noneBody": "Time only counts toward the daily total",
+      "empty": "No open tasks for today. You can add some in the Tasks tab."
+    }
+  },
+  "habits": {
+    "everyDay": "Every day",
+    "timeScope": {
+      "title": "{{title}} · {{time}}",
+      "titleNone": "{{title}} · no time",
+      "body": "Should this change apply to this day only, or to every day?",
+      "today": "Today only",
+      "thatDay": "{{day}} only",
+      "everyDay": "Every day"
+    },
+    "perWeek": "{{n}}× a week",
+    "perWeekProgress": "{{n}}× a week · {{done}} this week",
+    "thisWeek": "{{done}}/{{target}} this week",
+    "streakDays": "{{n}}-day streak",
+    "streakWeeks": "{{n}}-week streak",
+    "notDone": "not done",
+    "a11yAddOnce": "{{title}}: add one",
+    "a11yAddUnit": "{{title}}: add one {{unit}}",
+    "a11yToday": "{{title}}, today {{count}} / {{target}}",
+    "screen": {
+      "add": "Add habit",
+      "lastSeven": "{{pct}}% in the last 7 days",
+      "lastSevenA11y": "{{pct}} percent in the last 7 days",
+      "best": "Longest streak: {{title}} · {{streak}}",
+      "startFirst": "Start your first streak today",
+      "emptyTitle": "Add your first habit",
+      "emptyBody": "Drinking water, reading, exercise… every day or a few times a week."
+    },
+    "sheet": {
+      "newTitle": "New habit",
+      "editTitle": "Edit habit",
+      "titlePlaceholder": "What do you want to do?",
+      "titleA11y": "Habit name",
+      "fewTimesWeek": "A few times a week",
+      "daysPerWeek": "How many days a week?",
+      "daysPerWeekA11y": "{{n}}× a week",
+      "timesPerDay": "How many times a day?",
+      "timesPerDayA11y": "{{n}} times a day",
+      "once": "Once",
+      "oncePerDay": "Once a day",
+      "unitLabel": "Unit (optional)",
+      "unitPlaceholder": "glasses, pages, sets",
+      "unitA11y": "Unit",
+      "timeLabel": "Time (optional, shown in Today)",
+      "delete": "Delete habit"
+    }
+  },
+  "schedule": {
+    "add": "Add schedule block",
+    "thisWeek": "This week",
+    "prevWeek": "Previous week",
+    "nextWeek": "Next week",
+    "backToThisWeek": "Back to this week",
+    "showDay": "Show day",
+    "emptyTitle": "This day is free",
+    "emptyBody": "Use + to add a class or work block that repeats every week.",
+    "sheet": {
+      "newTitle": "New schedule block",
+      "editTitle": "Edit schedule block",
+      "intro": "Repeats on the same day and time every week: a class, a work shift, a course.",
+      "titlePlaceholder": "Physics class",
+      "day": "Day",
+      "days": "Days (you can pick more than one)",
+      "daysRequired": "Pick at least one day.",
+      "start": "Start",
+      "startA11y": "Start time",
+      "timeRequired": "A schedule block needs a start time.",
+      "place": "Place (optional)",
+      "placeA11y": "Place",
+      "addToDays": "Add to {{n}} days",
+      "delete": "Delete block"
+    }
+  },
+  "onboarding": {
+    "stepA11y": "Step {{step}} of {{total}}",
+    "skip": "Skip",
+    "skipA11y": "Skip choosing a profile",
+    "switchLanguage": "Change language, now {{name}}",
+    "tikiWaving": "Tiki waving",
+    "start": "Let's start",
+    "startNamed": "Let's start, {{name}}",
+    "continue": "Continue",
+    "welcome": {
+      "title": "Hi, I'm Tiki!",
+      "body": "Let's plan your days together. Your tasks, focus time, habits and weekly schedule in one place.",
+      "noAccountTitle": "Start without an account.",
+      "noAccountBody": "Your data stays on your phone first.",
+      "offlineTitle": "Works offline.",
+      "offlineBody": "Your plan is with you, even on a plane.",
+      "freeTitle": "All the basics are free.",
+      "freeBody": "No subscription required."
+    },
+    "buddy": {
+      "bubble": "These are my friends! Who should keep you company?",
+      "title": "Pick your friend",
+      "hint": "Each friend brings its own theme. It's not a final choice: you can change your friend, theme and appearance anytime in Settings > Theme."
+    },
+    "profile": {
+      "bubble": "Let me get to know you. What fills most of your days?",
+      "title": "What do you do?",
+      "hint": "You can pick more than one and change it later in settings.",
+      "sections": "Sections we will open for you"
+    },
+    "name": {
+      "bubble": "Last thing: what should I call you?",
+      "title": "What's your name?",
+      "hint": "Only stored on this phone. You can leave it empty.",
+      "placeholder": "Your name"
+    }
+  },
+  "streak": {
+    "label_one": "day streak",
+    "label_other": "day streak",
+    "a11y": "{{n}}-day streak",
+    "chip": "{{n}}-day streak. Open the streak card",
+    "continue": "Continue",
+    "message": {
+      "first": "Your streak starts today. Drop by tomorrow and we will grow it together!",
+      "going": "You've been here {{n}} days in a row. So good to see you!",
+      "milestone": "{{n}} days in a row! That is a real milestone.",
+      "again": "Welcome back! A new streak has started. Your longest is {{best}} days."
+    }
+  },
+  "badges": {
+    "title": "Badges",
+    "count": "{{done}} of {{total}} levels",
+    "earned": "Earned",
+    "new": "New badge",
+    "open": "Open badges",
+    "earnedOn": "Earned {{date}}",
+    "progress": "{{value}} / {{target}}",
+    "level": "Level {{n}}",
+    "levelOf": "Level {{n}} of {{total}}",
+    "notYet": "Not earned yet",
+    "next": "Next: {{goal}}",
+    "complete": "Every level done!",
+    "ladder": "Levels",
+    "tiers": {
+      "bronze": "Bronze",
+      "silver": "Silver",
+      "gold": "Gold",
+      "emerald": "Emerald",
+      "ruby": "Ruby",
+      "diamond": "Diamond",
+      "legend": "Legend"
+    },
+    "families": {
+      "streak": {
+        "title": "Loyal friend",
+        "goal": "Come back {{n}} in a row",
+        "goalOne": "Come back {{n}} in a row"
+      },
+      "tasks": {
+        "title": "Finisher",
+        "goal": "Finish {{n}} in total",
+        "goalOne": "Finish your first task"
+      },
+      "focus": {
+        "title": "Focus master",
+        "goal": "Focus for {{n}} in total",
+        "goalOne": "Focus for {{n}} in total"
+      },
+      "habits": {
+        "title": "Habit gardener",
+        "goal": "Check off your habits {{n}} times",
+        "goalOne": "Check off your habits {{n}} times"
+      },
+      "goals": {
+        "title": "Peak hunter",
+        "goal": "Reach {{n}} goals",
+        "goalOne": "Reach one of your goals"
+      },
+      "themes": {
+        "title": "Designer",
+        "goal": "Save {{n}} themes of your own",
+        "goalOne": "Save a theme of your own"
+      }
+    }
+  },
+  "weekly": {
+    "title": "Weekly summary",
+    "linkBody": "Your week at a glance",
+    "prev": "Last week",
+    "this": "This week",
+    "tasks": "tasks done",
+    "focus": "focus",
+    "habits": "habits",
+    "visits": "days you came",
+    "visitsValue": "{{n}}/7",
+    "percent": "{{n}}%",
+    "pointsDelta": "{{n}} pts",
+    "focusByDay": "Focus by day",
+    "noFocus": "No focus recorded.",
+    "bestDay": "Best day: {{day}} · {{what}}",
+    "taskCount": "{{n}} tasks",
+    "badges": "Badges of the week",
+    "noBadges": "No new badges; the next one may be close.",
+    "allBadges": "All badges",
+    "promptTitle": "Last week's summary is ready",
+    "promptBody": "Shall we look at what you did?",
+    "promptDismiss": "Close the weekly summary",
+    "line": {
+      "quiet": "A quiet week. A new week is a fresh start!",
+      "moreFocus": "You focused more than last week. Great going!",
+      "habits": "You kept your habits really steadily.",
+      "everyDay": "You were here every day of the week!",
+      "tasks": "You finished {{n}} things. Well done!",
+      "focus": "You focused for {{duration}} in total."
+    }
+  },
+  "story": {
+    "title": "Your week in stories",
+    "close": "Close",
+    "next": "Next",
+    "prev": "Previous",
+    "slideOf": "{{n}} of {{total}}",
+    "intro": {
+      "kicker": "Weekly summary",
+      "title": "Your week is ready!",
+      "body": "Let's look at what you did between {{range}}."
+    },
+    "visits": {
+      "kicker": "You showed up",
+      "title": "You were here {{n}} days this week",
+      "titleAll": "You were here every day this week!",
+      "streak": "Your streak is now {{n}}"
+    },
+    "tasks": {
+      "kicker": "What you finished",
+      "unit": "tasks done",
+      "more": "{{n}} more than last week",
+      "less": "Last week it was {{n}}",
+      "same": "Same as last week",
+      "none": "No tasks finished this week. That is okay, the new week is yours!"
+    },
+    "focus": {
+      "kicker": "Your focus time",
+      "unit": "of focus",
+      "more": "{{d}} more than last week",
+      "less": "Last week you focused for {{d}}"
+    },
+    "habits": {
+      "kicker": "Habits",
+      "unit": "of your habits kept",
+      "top": "Most steady: {{name}} · {{days}}"
+    },
+    "bestDay": {
+      "kicker": "Star of the week",
+      "body": "This was your best day"
+    },
+    "badges": {
+      "kicker": "New badges",
+      "title": "You earned {{n}} badges this week",
+      "titleOne": "You earned a badge this week"
+    },
+    "outro": {
+      "kicker": "Your week",
+      "replay": "Watch again",
+      "details": "Details"
+    }
+  },
+  "widgets": {
+    "today": {
+      "title": "Today",
+      "empty": "Nothing planned today",
+      "emptyHint": "Tap to add something",
+      "allDone": "All done!",
+      "allDoneHint": "You finished the day",
+      "more": "+{{n}} more",
+      "next": "Up next",
+      "anytime": "Any time"
+    },
+    "focus": {
+      "title": "Focus",
+      "break": "Break",
+      "ends": "Ends",
+      "started": "Started",
+      "paused": "Paused",
+      "left": "{{n}} min left",
+      "idle": "Ready to focus",
+      "today": "Today {{duration}}",
+      "focusing": "Focusing",
+      "round": "Round {{round}}/{{total}}",
+      "start": "Start {{n}} min",
+      "startFree": "Start",
+      "startBreak": "Start break",
+      "resume": "Resume"
+    },
+    "buddy": {
+      "streak": "day streak",
+      "lit": "You showed up today",
+      "unlit": "Drop by to keep it going",
+      "best": "Best: {{n}}"
+    }
+  },
+  "profile": {
+    "habitsRate": "{{pct}}% done over the last 7 days",
+    "friendOf": "{{name}}'s friend",
+    "yourFriend": "Your friend",
+    "streak": "streak",
+    "best": "longest streak",
+    "seeAll": "See all",
+    "story": "Your week in stories",
+    "storyBody": "Watch last week again"
+  },
+  "mascots": {
+    "tiki": {
+      "name": "Tiki",
+      "theme": "Honey and warm cream"
+    },
+    "unicorn": {
+      "name": "Unicorn",
+      "theme": "Pastel lavender"
+    },
+    "owl": {
+      "name": "Owl",
+      "theme": "Paper and classic type"
+    },
+    "fox": {
+      "name": "Fox",
+      "theme": "Coral and autumn"
+    },
+    "penguin": {
+      "name": "Penguin",
+      "theme": "Ice blue"
+    },
+    "panda": {
+      "name": "Panda",
+      "theme": "Bamboo green"
+    }
+  },
+  "theme": {
+    "title": "Theme",
+    "settingsBody": "Colors, shapes, font and appearance",
+    "preview": "Preview",
+    "previewToday": "Today",
+    "previewTask": "Study physics",
+    "previewMeta": "15:00 · 1 h",
+    "previewProgress": "Weekly goal",
+    "tabs": {
+      "presets": "Themes",
+      "friend": "Character",
+      "color": "Color",
+      "shape": "Shape",
+      "font": "Font"
+    },
+    "library": {
+      "animals": "Animal themes",
+      "mine": "My themes",
+      "emptyHint": "Save a look you like, or import a theme someone sent you.",
+      "save": "Save this theme",
+      "import": "Import",
+      "rename": "Rename",
+      "renameHint": "Tap to rename",
+      "nameLabel": "Theme name",
+      "defaultName": "My theme {{n}}",
+      "authorNote": "When you share it, \"{{name}}\" shows as its maker.",
+      "saved": "\"{{name}}\" saved to My themes.",
+      "applied": "\"{{name}}\" applied and added to My themes.",
+      "mineMeta": "Yours · {{date}}",
+      "sharedBy": "Shared by {{author}}",
+      "shared": "Shared theme",
+      "active": "In use",
+      "shareLink": "Share a link",
+      "shareFile": "Save as a file",
+      "shareMessage": "{{name}}: a Tikido theme",
+      "copied": "Link copied.",
+      "fileShareTitle": "Tikido theme",
+      "filePrefix": "tikido-theme",
+      "importHint": "Paste a shared link or code, or pick a theme file.",
+      "pasteLabel": "Link or code",
+      "pastePlaceholder": "Link or code",
+      "pickFile": "Pick a file",
+      "previewTitle": "Incoming theme",
+      "previewBy": "Made by {{author}}",
+      "readabilityWarning": "Some text may be hard to read in this theme.",
+      "applyAndSave": "Apply and save",
+      "errors": {
+        "empty": "Paste a link or code first.",
+        "notTheme": "This isn't a Tikido theme.",
+        "newer": "This theme was made with a newer version of Tikido. Update the app first.",
+        "file": "The file couldn't be opened."
+      }
+    },
+    "friend": {
+      "title": "Character",
+      "hint": "The character is separate from the theme: pair any friend with any look."
+    },
+    "accent": "Accent color",
+    "accentHint": "Buttons, selected items and charts take this color.",
+    "hexLabel": "Color code",
+    "hexInvalid": "Type a six-digit color code, like 4A90D9",
+    "base": "Background",
+    "bases": {
+      "warm": "Warm",
+      "neutral": "Neutral",
+      "cool": "Cool"
+    },
+    "mode": "Appearance",
+    "modeHint": "This belongs to this device, not the theme; it is not shared with it.",
+    "modes": {
+      "system": "System",
+      "light": "Light",
+      "dark": "Dark"
+    },
+    "corners": {
+      "title": "Corners",
+      "sharp": "Sharp",
+      "soft": "Soft",
+      "normal": "Normal",
+      "round": "Round"
+    },
+    "cards": {
+      "title": "Cards",
+      "outlined": "Outlined",
+      "raised": "Shadow",
+      "flat": "Flat",
+      "tinted": "Tinted"
+    },
+    "checkbox": {
+      "title": "Checkbox",
+      "circle": "Circle",
+      "rounded": "Rounded",
+      "square": "Square"
+    },
+    "tabBar": {
+      "title": "Tab bar",
+      "floating": "Floating",
+      "docked": "Docked"
+    },
+    "font": {
+      "title": "Font",
+      "hint": "More fonts are coming later.",
+      "dmSans": "DM Sans",
+      "system": "System",
+      "serif": "Classic",
+      "sample": "3 tasks and 2 habits today"
+    },
+    "readable": "All text is easy to read",
+    "readableDetail": "Lowest text contrast {{ratio}}:1 (at least 4.5:1 is needed).",
+    "unreadable": "Some text is hard to read",
+    "checks": {
+      "text": "Faint text",
+      "accentText": "Colored text",
+      "onAccent": "Button labels",
+      "chart": "Chart bars"
+    },
+    "checkLine": "{{name}}: {{ratio}}:1, should be at least {{min}}:1",
+    "fix": "Make the color readable",
+    "reset": "Back to the default theme"
+  },
+  "settings": {
+    "title": "Settings",
+    "footer": "No account, data stays on this device",
+    "replayIntro": "Show the intro again",
+    "name": {
+      "title": "Your name",
+      "hint": "Used in the greeting on Today. You can leave it empty."
+    },
+    "profiles": {
+      "hint": "When you change your profile, sections are suggested again."
+    },
+    "sections": {
+      "title": "Sections",
+      "hint": "A section you turn off is hidden from the tabs and Today. Your data is kept.",
+      "alwaysOn": "Always on",
+      "reset": "Back to profile suggestions"
+    },
+    "haptics": {
+      "title": "Vibration",
+      "body": "Light vibration on taps and while dragging"
+    },
+    "reminders": {
+      "title": "Reminders",
+      "body": "Before timed tasks, habits and schedule blocks, and when a focus round ends"
+    },
+    "language": {
+      "title": "Language",
+      "hint": "System follows your phone’s language.",
+      "system": "System",
+      "translate": "Help translate",
+      "translateBody": "Try your own language, see where each text shows up"
+    },
+    "backup": {
+      "title": "Backup",
+      "hint": "Your data only lives on this device. Make a backup now and then and keep it somewhere safe (Files, Drive, email).",
+      "export": "Back up",
+      "exportBody": "Save all your data to one file",
+      "import": "Restore from backup",
+      "importBody": "Pick a backup you made before",
+      "ready": "Backup ready: {{summary}}.",
+      "exportFailed": "Could not create the backup.",
+      "confirmTitle": "Restore this backup?",
+      "dated": "Backup from {{date}}.",
+      "confirmWarning": "Your current data on this device will be replaced with the backup.",
+      "restore": "Restore",
+      "restoring": "Restoring…",
+      "restored": "Backup restored.",
+      "restoreFailed": "Restore failed."
+    }
+  },
+  "translate": {
+    "title": "Translation tools",
+    "intro": "Want Tikido in your language? Save the starter file, translate the texts, then try the file here: the app opens in your translation right away.",
+    "template": "Save the starter file",
+    "templateBody": "Every text, in English. Start translating from here.",
+    "load": "Try a translation file",
+    "loadBody": "Pick the file; we check it and open the app in it",
+    "showKeys": "Show text keys",
+    "showKeysBody": "Every text is replaced by its key in the file, to find where each one shows up",
+    "fileTitle": "{{name}} · {{code}}",
+    "by": "Translated by {{names}}",
+    "ok": "No problems, every text is there.",
+    "problems": "{{n}} problems. Missing or broken texts show in English.",
+    "more": "+{{n}} more",
+    "apply": "Open in this translation",
+    "trialName": "{{name}} (trial)",
+    "active": "Trying {{name}}",
+    "activeBody": "This translation is only on this device. Loading a newer version replaces it.",
+    "end": "End the trial",
+    "errors": {
+      "notJson": "This file can't be read. A translation file is a .json file.",
+      "notTranslation": "This isn't a Tikido translation file.",
+      "noMeta": "The _meta block at the top of the file needs the language's name and code (locale, e.g. \"de-DE\").",
+      "file": "The file couldn't be opened."
+    },
+    "problem": {
+      "missing": "Missing: {{key}}",
+      "missingPlural": "Missing plural form: {{key}}",
+      "unknown": "Unknown key: {{key}}",
+      "empty": "Empty: {{key}}",
+      "listEmpty": "{{key}}: the list has an empty item",
+      "listLength": "{{key}}: needs {{want}} items, has {{got}}",
+      "kindList": "{{key}}: should be a list",
+      "kindText": "{{key}}: should be text",
+      "placeholders": "{{key}}: placeholders should be {{want}}, found {{got}}",
+      "none": "none",
+      "meta": "{{key}} is missing or wrong"
+    }
+  },
+  "backup": {
+    "filePrefix": "tikido-backup",
+    "shareTitle": "Tikido backup",
+    "errors": {
+      "corrupt": "The backup file is incomplete or damaged.",
+      "unreadable": "Couldn't read this file. A Tikido backup is a .json file.",
+      "notBackup": "This file is not a Tikido backup.",
+      "newerVersion": "This backup was made with a newer version of Tikido. Update the app first.",
+      "noShare": "Sharing is not available on this device."
+    }
+  },
+  "goals": {
+    "title": "Goals",
+    "add": "Add goal",
+    "newTitle": "New goal",
+    "editTitle": "Edit goal",
+    "namePlaceholder": "e.g. Exam week",
+    "color": "Color",
+    "due": "Deadline",
+    "noDue": "No deadline",
+    "label": "Goal",
+    "none": "No goal",
+    "progress": "{{done}}/{{total}} tasks",
+    "focus": "{{duration}} focus",
+    "daysLeft": "{{days}} left",
+    "dueToday": "Due today",
+    "overdueBy": "{{days}} overdue",
+    "noTasks": "No tasks yet",
+    "filterA11y": "{{title}}: {{progress}}. Show its tasks",
+    "clearFilterA11y": "Remove the {{title}} filter",
+    "a11yIn": "in {{title}}",
+    "edit": "Edit",
+    "markReached": "I reached this goal",
+    "reachedNote": "Reached goals leave the strip; their tasks stay.",
+    "delete": "Delete goal",
+    "emptyFiltered": "No tasks belong to this goal. Pick it when adding a task, or type \"+{{tag}}\" in the title."
+  },
+  "stats": {
+    "title": "Stats",
+    "prev": "Previous",
+    "next": "Next",
+    "lastWeek": "Last week",
+    "tasksDone": "tasks done",
+    "tikiSleeping": "{{name}} sleeping",
+    "dailyFocus": "Daily focus",
+    "doneTasks": "Completed tasks",
+    "tapHint": "Tap a day to see its value.",
+    "noFocusWeek": "No focus recorded this week.",
+    "noTasksWeek": "No tasks completed this week.",
+    "a11yFocusDay": "{{day}} focus",
+    "a11yTasksDay": "{{day}} completed tasks",
+    "selectedDay": "{{day}}: {{focus}} focus, {{tasks}}",
+    "showTable": "Show as table",
+    "hideTable": "Hide table",
+    "whereFocus": "Where did your focus go?",
+    "sessions": "Focus sessions",
+    "deletedTask": "Deleted task",
+    "unlinkedFocus": "Focus without a task",
+    "otherEntries": "{{n}} others",
+    "compare": {
+      "moreDay": "{{diff}} more than the day before",
+      "lessDay": "{{diff}} less than the day before",
+      "sameDay": "Same as the day before",
+      "moreWeek": "{{diff}} more than the week before",
+      "lessWeek": "{{diff}} less than the week before",
+      "sameWeek": "Same as the week before"
+    },
+    "empty": {
+      "today": "Nothing recorded yet today",
+      "thisWeek": "Nothing recorded yet this week",
+      "pastDay": "Nothing recorded on this day",
+      "pastWeek": "Nothing recorded this week",
+      "body": "This fills up as you use the focus timer and complete tasks."
+    }
+  },
+  "reminders": {
+    "channel": "Reminders",
+    "label": "Remind me",
+    "none": "None",
+    "atStart": "At start",
+    "minutesBefore": "{{n}} min before",
+    "hoursBefore": "{{n}} hr before",
+    "startsNow": "Starting now · {{time}}",
+    "startsIn": "Starts in {{n}} min · {{time}}",
+    "off": "Reminders are turned off in Settings.",
+    "denied": "Notifications are off. Allow them in your phone settings to get reminders.",
+    "openSettings": "Open phone settings",
+    "test": "Send a test notification",
+    "testSent": "A notification will arrive in {{n}} seconds. You can leave the app.",
+    "testFailed": "Could not set up the notification: {{error}}",
+    "focusDoneTitle": "Focus round done",
+    "focusDoneBody": "Your {{n}}-minute break has started.",
+    "breakDoneTitle": "Break is over",
+    "breakDoneBody": "Ready for another focus round?",
+    "testTitle": "Tikido",
+    "testBody": "Reminders are working. This is how I will nudge you before your tasks."
+  },
+  "calendar": {
+    "prevMonth": "Previous month",
+    "nextMonth": "Next month"
+  },
+  "seed": {
+    "math": "Study math",
+    "design": "Tikido design",
+    "physics": "Physics class",
+    "morning": "Morning routine",
+    "water": "Drink water",
+    "glasses": "glasses",
+    "gym": "Gym",
+    "read": "Read a book"
+  }
+}
