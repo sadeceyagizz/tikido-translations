@@ -2,7 +2,9 @@
   "_meta": {
     "name": "English",
     "locale": "en-US",
-    "translators": []
+    "translators": [
+      "Yağız"
+    ]
   },
   "common": {
     "undo": "Undo",
